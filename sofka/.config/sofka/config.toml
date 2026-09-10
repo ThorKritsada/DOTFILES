@@ -2,3 +2,23 @@ default_resource = "deployments"
 
 [skin]
 name = "catppuccin-frappe"
+
+[views."v1/pods"]
+replace = true
+columns = [
+  { name = "NAME", builtin = "NAME" },
+  { name = "READY", builtin = "READY" },
+  { name = "STATUS", builtin = "STATUS" },
+  { name = "RESTARTS", builtin = "RESTARTS" },
+  { name = "CPU", metric = "cpu" },
+  { name = "MEM", metric = "memory" },
+  { name = "CPU/R", metric = "cpu-request", wide = true },
+  { name = "MEM/R", metric = "memory-request", wide = true },
+  { name = "%CPU/R", metric = "cpu-request-utilization" },
+  { name = "%MEM/R", metric = "memory-request-utilization" },
+  { name = "CPU/L", metric = "cpu-limit", wide = true },
+  { name = "MEM/L", metric = "memory-limit", wide = true },
+  { name = "%CPU/L", metric = "cpu-limit-utilization", wide = true },
+  { name = "%MEM/L", metric = "memory-limit-utilization", wide = true },
+  { name = "AGE", builtin = "AGE" },
+]
