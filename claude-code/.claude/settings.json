@@ -321,5 +321,6 @@
   "advisorModel": "opus",
   "tui": "fullscreen",
   "theme": "dark",
-  "agentPushNotifEnabled": true
+  "agentPushNotifEnabled": true,
+  "editorMode": "vim"
 }
