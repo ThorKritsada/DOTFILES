@@ -1,0 +1,4 @@
+default_resource = "deployments"
+
+[skin]
+name = "catppuccin-frappe"
