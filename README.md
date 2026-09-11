@@ -9,8 +9,8 @@ Each package directory mirrors paths below `$HOME`, so configurations can be ins
 - **Shells:** Zsh with [zinit](https://github.com/zdharma-continuum/zinit), plus Bash, Fish, and Nushell configurations.
 - **Editors:** Helix, Neovim, Vim, and Zed.
 - **Terminals:** Ghostty, Kitty, WezTerm, and tmux.
-- **CLI and TUI tools:** Starship, Yazi, Television, Lazygit, k9s, and Herdr.
-- **AI tools:** Claude Code, Goose, and OpenCode.
+- **CLI and TUI tools:** Starship, Yazi, Television, Lazygit, k9s, Herdr, and Sofka.
+- **AI tools:** Claude Code and OpenCode.
 - **Look and feel:** Catppuccin Frappé across supported tools, paired with JetBrainsMono Nerd Font Mono.
 
 ## Quick Start
@@ -83,6 +83,7 @@ Stow targets the parent directory by default, so running these commands from `~/
 | `herdr` | `.config/herdr/` |
 | `k9s` | `.config/k9s/` |
 | `lazygit` | `.config/lazygit/` |
+| `sofka` | `.config/sofka/` |
 | `tv` | `.config/television/` |
 | `yazi` | `.config/yazi/` |
 
@@ -91,7 +92,6 @@ Stow targets the parent directory by default, so running these commands from `~/
 | Package | Configuration |
 | --- | --- |
 | `claude-code` | `.claude/` |
-| `goose` | `.config/goose/` |
 | `opencode` | `.config/opencode/` |
 
 ## Maintenance
