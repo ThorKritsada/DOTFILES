@@ -12,6 +12,7 @@ columns = [
   { name = "RESTARTS", builtin = "RESTARTS" },
   { name = "CPU", metric = "cpu" },
   { name = "MEM", metric = "memory" },
+  { name = "NODE", builtin = "NODE" },
   { name = "CPU/R", metric = "cpu-request", wide = true },
   { name = "MEM/R", metric = "memory-request", wide = true },
   { name = "%CPU/R", metric = "cpu-request-utilization" },
